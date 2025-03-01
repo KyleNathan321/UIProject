@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/BoxGameUITest.uss?fileID=7433441132597879392&amp;guid=ff0c868d6396cfb48b7b5e8f8f6cdd50&amp;type=3#BoxGameUITest" />
+    <Style src="project://database/Assets/UITest1.uss?fileID=7433441132597879392&amp;guid=ab0b6130916827d4e8bf873da079cbc0&amp;type=3#UITest1" />
+    <Style src="project://database/Assets/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=a4f8c3dbf924864409e1ee9d2bf7538b&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="TopElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/217%202436x1125_4643eb9566f943ed80cba91849f1b814.jpg?fileID=2800000&amp;guid=677284b759b79634099c4f75b8f26d3e&amp;type=3#217 2436x1125_4643eb9566f943ed80cba91849f1b814&quot;); height: 870px;">
+        <ui:Label text="Main Menu" name="Header" class="header" style="font-size: 50px; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=98e91c05ef4400c49ad2d5f6e11c3ba1&amp;type=3#NotInter-Regular&quot;); -unity-font-style: bold; -unity-text-outline-color: rgb(255, 255, 255); color: rgb(255, 255, 255); margin-top: 41px;" />
+        <ui:Button text="Start" name="StartButton" class="button" />
+        <ui:Button text="Settings" name="SettingsButton" class="button" />
+        <ui:Button text="Quit" name="QuitButton" class="button" />
+    </ui:VisualElement>
+</ui:UXML>
